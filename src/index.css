@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  touch-action: manipulation;
+}
+
+/* Pulsing highlight for road guidance and interactive buttons */
+@keyframes softPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.95;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+
+.animate-soft-pulse {
+  animation: softPulse 2s infinite ease-in-out;
+}

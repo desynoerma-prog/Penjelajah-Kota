@@ -1,0 +1,6 @@
+{
+  "name": "Penjelajah Kota - Game Edukasi Lalu Lintas & Bahasa Indonesia",
+  "description": "Game edukasi interaktif untuk siswa kelas 4 SD tentang kepatuhan rambu lalu lintas, pemahaman membaca petunjuk arah, dan navigasi kota pada laptop dan Interactive Flat Panel (IFP).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
